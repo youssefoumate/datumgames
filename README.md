@@ -28,7 +28,14 @@ privacy.html      Oberth privacy policy
 delete-data.html  how to request deletion
 style.css         shared styles, Oberth's palette
 .nojekyll         serve the files as-is, no Jekyll build
+
+googlea119ff78ea7500b7.html   Google site-ownership token — DO NOT DELETE
 ```
+
+That last file looks like junk and is not. It is how Google proves this site
+belongs to us, and Google **re-checks it periodically** — remove it and the site
+silently becomes unverified, which takes the Play Console developer-website
+verification down with it. It has no content worth reading; leave it alone.
 
 No build step, no dependencies, no JavaScript. Edit the HTML and push.
 
