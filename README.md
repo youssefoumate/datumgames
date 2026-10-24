@@ -1,7 +1,7 @@
 # datumgames.github.io
 
 The public site for **Datum Games** — a studio page, and the canonical home of
-Oberth's privacy policy and data-deletion instructions.
+Dwida's privacy policy and data-deletion instructions.
 
 Live at <https://youssefoumate.github.io/datumgames/>.
 
@@ -13,7 +13,7 @@ Google Play requires three public URLs that the game repo cannot provide:
 - a **privacy policy**, required for every app
 - a **data deletion** page, required once an app collects anything
 
-The `oberth` repo is private, and GitHub Pages will not serve a private repo on
+The game's repo (`oberth`, the working title — the game is now called Dwida) is private, and GitHub Pages will not serve a private repo on
 a free plan. Publishing the game's own `docs/` folder would also have put the
 build and publishing runbooks — including account strategy — on the open web.
 So the public pages live here and the source stays private.
@@ -24,9 +24,9 @@ These pages replace two gists that previously held the same text.
 
 ```
 index.html        studio page + links
-privacy.html      Oberth privacy policy
+privacy.html      Dwida privacy policy
 delete-data.html  how to request deletion
-style.css         shared styles, Oberth's palette
+style.css         shared styles, the game's palette
 .nojekyll         serve the files as-is, no Jekyll build
 
 googlea119ff78ea7500b7.html   Google site-ownership token — DO NOT DELETE
@@ -51,8 +51,10 @@ and both are expected to change:
 
 - **Sentry is disabled.** The policy says so. Enabling crash reporting means
   updating this page *before* the build ships.
-- **There is no in-app purchase yet.** When `oberth_full_unlock` goes live,
-  re-read the purchase and retention wording.
+- **Purchases go through RevenueCat.** Both products (the full unlock and the
+  skin pack) are verified by it, and the policy names it as a service provider.
+  A new product, or a new SDK that touches purchase data, means re-reading the
+  Purchases and Service providers sections.
 
 ## Custom domain
 
