@@ -25,6 +25,7 @@ These pages replace two gists that previously held the same text.
 ```
 index.html        studio page + links
 privacy.html      Dwida privacy policy
+ikda-privacy.html Ikda: Korean Reading privacy policy (published PRIVACY.md from the hanji repo)
 delete-data.html  how to request deletion
 style.css         shared styles, the game's palette
 .nojekyll         serve the files as-is, no Jekyll build
